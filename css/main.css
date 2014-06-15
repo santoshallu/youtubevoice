@@ -1,0 +1,10 @@
+body{padding-top:0;background-color:#f5f5f5}
+.flat .command{border-radius:6px;list-style:none;background:#fff;text-align:center;width:200px;height:150px;margin:0 0 15px;padding:0 0 20px}
+.flat .command li{color:#000;border-top:1px solid #f5f5f5;-webkit-transition:300ms;transition:300ms;padding:0}
+.flat .command li.command-name{border-radius:6px 6px 0 0;font-size:16px;line-height:16px;color:#fff;background:#e74c3c;margin-bottom:5px;border-top:0;padding:15px}
+.flat .command li > strong{color:#e74c3c}
+.flat .command li.command-action{margin-top:10px;border-top:0}
+.flat .command.featured{-webkit-transform:scale(1.1);-ms-transform:scale(1.1);transform:scale(1.1)}
+.flat .command.featured:hover li.command-name{background:#c0392b}
+#footer{margin-top:100px;padding-bottom:30px}
+.flat .command.featured li.command-name,.flat .command:hover li.command-name{background:#000}

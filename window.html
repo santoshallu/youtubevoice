@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+
+  <body>
+<head>
+<script src="js/voicerecognition.js"></script>
+<script src="js/jquery.min.js"></script>
+<script src="js/commands.js"></script>
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<link href="css/main.css" rel="stylesheet">
+
+
+
+
+</head>
+<body>
+ <div class="container">
+
+
+
+      
+
+        <div class="row flat">
+            <div class="col-lg-3 col-md-3 col-xs-6">
+                <ul class="command command1">
+                    <li class="command-name">
+                        Play/Pause
+                    </li>
+                    <li >
+                        <strong>say "play"</strong> (ex: play)
+                    </li>
+					  <li>
+                        <strong>say "stop"</strong> (ex: stop)
+                    </li>
+                   
+                    
+					
+                  
+                </ul>
+            </div>
+
+           
+
+         <div class="col-lg-3 col-md-3 col-xs-6">
+                <ul class="command command2">
+                    <li class="command-name">
+                        Mute/unMute
+                    </li>
+                    <li >
+                        <strong>say "Mute"</strong> (ex: mute)
+                    </li>
+                    <li>
+                        <strong>say "un Mute"</strong> (ex: un Mute)
+                    </li>
+                   
+                </ul>
+            </div>
+
+     <div class="col-lg-3 col-md-3 col-xs-6">
+                <ul class="command command3">
+                    <li class="command-name">
+                        Volume
+                    </li>
+                    <li >
+                        <strong>say "set Volume number"</strong> 
+                    </li>
+					<li>ex: set Volume 23 </li>
+                    <li> 
+                      or &nbsp <strong>say "set number"</strong> 
+                    </li>
+					<li>ex:set 32</li>
+                   
+                  
+                </ul>
+            </div>
+			     <div class="col-lg-3 col-md-3 col-xs-6">
+                <ul class="command command4">
+                    <li class="command-name">
+                        go to Minutes
+                    </li>
+                    <li >
+                        <strong>say "go to number minutes"</strong> 
+                    </li>
+                    <li>ex: go to 3 minutes </li>
+                    <li>
+                      or &nbsp; <strong>say " number minutes"</strong>
+                    </li>
+					<li>ex: 3 minutes</li>
+                  
+                </ul>
+            </div>
+			 <div class="col-lg-3 col-md-3 col-xs-6">
+                <ul class="command command5">
+                    <li class="command-name">
+                        go to Seconds
+                    </li>
+                    <li >
+                        <strong>say "go to number seconds"</strong> 
+                    </li>
+                    <li>ex: go to 3 seconds </li>
+                    <li>
+                      or &nbsp; <strong>say " number seconds"</strong>
+                    </li>
+					<li>ex: 3 seconds</li>
+                  
+                </ul>
+            </div>
+</div>
+
+</div>
+<div id="ytplayer">
+  <webview src="http://www.youtube.com/" style="width:100%; height:100%;" ></webview>
+  </div>
+  </body>
+  
+</html>
